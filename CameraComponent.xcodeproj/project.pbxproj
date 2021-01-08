@@ -8,6 +8,61 @@
 
 /* Begin PBXBuildFile section */
 		132B32F5237599E000AEDD93 /* OSECameraComponentError.m in Sources */ = {isa = PBXBuildFile; fileRef = 132B32F4237599E000AEDD93 /* OSECameraComponentError.m */; };
+		13535B6D25A87B8600EABEFA /* JSONUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B3225A8704A00EABEFA /* JSONUtils.h */; };
+		13535B6E25A87B8600EABEFA /* MessageProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B3325A8704A00EABEFA /* MessageProcessor.h */; };
+		13535B6F25A87B8600EABEFA /* IURLHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B3425A8704A00EABEFA /* IURLHandler.h */; };
+		13535B7025A87B8600EABEFA /* ApplicationUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B3525A8704A00EABEFA /* ApplicationUtil.h */; };
+		13535B7125A87B8600EABEFA /* CuemeWebViewConfigurator.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B3625A8704A00EABEFA /* CuemeWebViewConfigurator.h */; };
+		13535B7225A87B8600EABEFA /* PropertyReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B3725A8704A00EABEFA /* PropertyReader.h */; };
+		13535B7325A87B8600EABEFA /* URLAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B3825A8704A00EABEFA /* URLAgent.h */; };
+		13535B7425A87B8600EABEFA /* FileUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B3925A8704A00EABEFA /* FileUtils.h */; };
+		13535B7525A87B8600EABEFA /* IResourceEncryptionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B3A25A8704A00EABEFA /* IResourceEncryptionHandler.h */; };
+		13535B7625A87B8600EABEFA /* Base64Util.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B3B25A8704A00EABEFA /* Base64Util.h */; };
+		13535B7725A87B8600EABEFA /* StringUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B3C25A8704A00EABEFA /* StringUtil.h */; };
+		13535B7825A87B8600EABEFA /* IUrlCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B3D25A8704A00EABEFA /* IUrlCallback.h */; };
+		13535B7925A87B8600EABEFA /* JSONObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B3E25A8704A00EABEFA /* JSONObject.h */; };
+		13535B7A25A87B8600EABEFA /* Database.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B3F25A8704A00EABEFA /* Database.h */; };
+		13535B7B25A87B8600EABEFA /* JSONArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B4025A8704A00EABEFA /* JSONArray.h */; };
+		13535B7C25A87B8600EABEFA /* HttpAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B4125A8704A00EABEFA /* HttpAgent.h */; };
+		13535B7D25A87B8600EABEFA /* URLUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B4225A8704A00EABEFA /* URLUtils.h */; };
+		13535B7E25A87B8600EABEFA /* MessageQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B4325A8704A00EABEFA /* MessageQueue.h */; };
+		13535B7F25A87B8600EABEFA /* IApplicationContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B4425A8704B00EABEFA /* IApplicationContext.h */; };
+		13535B8025A87B8600EABEFA /* QueryResults.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B4525A8704B00EABEFA /* QueryResults.h */; };
+		13535B8125A87B8600EABEFA /* Logger.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B4625A8704B00EABEFA /* Logger.h */; };
+		13535B8225A87B8600EABEFA /* DMUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B4725A8704B00EABEFA /* DMUtils.h */; };
+		13535B8325A87B8600EABEFA /* CoreDevUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B4825A8704B00EABEFA /* CoreDevUtil.h */; };
+		13535B8425A87B8600EABEFA /* StoreManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B4925A8704B00EABEFA /* StoreManager.h */; };
+		13535B8725A87B9600EABEFA /* ICuemeAuthenticator.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B4B25A8704B00EABEFA /* ICuemeAuthenticator.h */; };
+		13535B8825A87B9600EABEFA /* IContainerSplash.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B4C25A8704B00EABEFA /* IContainerSplash.h */; };
+		13535B8925A87B9600EABEFA /* CuemeAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B4D25A8704B00EABEFA /* CuemeAnalytics.h */; };
+		13535B8A25A87B9600EABEFA /* CuemeWorkbench.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B4E25A8704B00EABEFA /* CuemeWorkbench.h */; };
+		13535B8D25A87BAB00EABEFA /* AudioUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B5025A8704B00EABEFA /* AudioUtil.h */; };
+		13535B8E25A87BAB00EABEFA /* BarcodeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B5125A8704B00EABEFA /* BarcodeView.h */; };
+		13535B8F25A87BAB00EABEFA /* TTSDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B5225A8704B00EABEFA /* TTSDelegate.h */; };
+		13535B9025A87BAB00EABEFA /* CameraHandlerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B5325A8704B00EABEFA /* CameraHandlerDelegate.h */; };
+		13535B9125A87BAB00EABEFA /* SpeechEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B5425A8704B00EABEFA /* SpeechEncoding.h */; };
+		13535B9225A87BAB00EABEFA /* CameraHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B5525A8704B00EABEFA /* CameraHandler.h */; };
+		13535B9325A87BAB00EABEFA /* CameraBarcodeScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B5625A8704B00EABEFA /* CameraBarcodeScanner.h */; };
+		13535B9425A87BAB00EABEFA /* AudioRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B5725A8704B00EABEFA /* AudioRecorder.h */; };
+		13535B9525A87BAB00EABEFA /* BarcodeScannerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B5825A8704B00EABEFA /* BarcodeScannerDelegate.h */; };
+		13535B9625A87BAB00EABEFA /* IPlayerCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B5925A8704B00EABEFA /* IPlayerCallback.h */; };
+		13535B9725A87BAB00EABEFA /* AudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B5A25A8704B00EABEFA /* AudioPlayer.h */; };
+		13535B9825A87BAB00EABEFA /* TonePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B5B25A8704B00EABEFA /* TonePlayer.h */; };
+		13535B9925A87BAB00EABEFA /* ImageUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B5C25A8704B00EABEFA /* ImageUtils.h */; };
+		13535B9A25A87BAB00EABEFA /* BarcodeUIDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B5D25A8704B00EABEFA /* BarcodeUIDelegate.h */; };
+		13535B9B25A87BAB00EABEFA /* iOSLocalTTSPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B5E25A8704B00EABEFA /* iOSLocalTTSPlayer.h */; };
+		13535B9C25A87BAB00EABEFA /* IRecorderCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B5F25A8704B00EABEFA /* IRecorderCallback.h */; };
+		13535B9D25A87BAB00EABEFA /* BarcodeScannerProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B6025A8704B00EABEFA /* BarcodeScannerProvider.h */; };
+		13535B9E25A87BAB00EABEFA /* IM.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B6225A8704B00EABEFA /* IM.h */; };
+		13535B9F25A87BAB00EABEFA /* IMEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B6325A8704B00EABEFA /* IMEvent.h */; };
+		13535BA025A87BAB00EABEFA /* IIMComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B6425A8704B00EABEFA /* IIMComponent.h */; };
+		13535BA125A87BAB00EABEFA /* IIMComponentVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 13535B6525A8704B00EABEFA /* IIMComponentVersion.h */; };
+		13535BA425A87BFF00EABEFA /* CameraComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = B3C1A82C19951F9400AE9A92 /* CameraComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13535BA725A87C0200EABEFA /* CameraHandlerCustom.h in Headers */ = {isa = PBXBuildFile; fileRef = 135C928E23323B5E008451B3 /* CameraHandlerCustom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13535BAA25A87C0400EABEFA /* OSEImageProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 13E4F71D253EC5A200E3C9E3 /* OSEImageProcess.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13535BAD25A87C0800EABEFA /* CameraComponentVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 41688A101DB5856300CC9D77 /* CameraComponentVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13535BB025A87C0C00EABEFA /* CuemeCameraCustomView.h in Headers */ = {isa = PBXBuildFile; fileRef = 13BC0358233A09A10082FD66 /* CuemeCameraCustomView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13535BB325A87C0E00EABEFA /* OSECameraComponentError.h in Headers */ = {isa = PBXBuildFile; fileRef = 132B32F3237599E000AEDD93 /* OSECameraComponentError.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		137FDA7A23584C4600B62761 /* info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 137FDA7923584C4600B62761 /* info@2x.png */; };
 		137FDA8123584DE600B62761 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 137FDA8023584DE600B62761 /* back@2x.png */; };
 		13BC035B233A09A20082FD66 /* CuemeCameraCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BC035A233A09A20082FD66 /* CuemeCameraCustomView.m */; };
@@ -307,6 +362,71 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		13535B6C25A87B6500EABEFA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13535BA425A87BFF00EABEFA /* CameraComponent.h in Headers */,
+				13535BA725A87C0200EABEFA /* CameraHandlerCustom.h in Headers */,
+				13535BAD25A87C0800EABEFA /* CameraComponentVersion.h in Headers */,
+				13535BB325A87C0E00EABEFA /* OSECameraComponentError.h in Headers */,
+				13535BB025A87C0C00EABEFA /* CuemeCameraCustomView.h in Headers */,
+				13535BAA25A87C0400EABEFA /* OSEImageProcess.h in Headers */,
+				13535B8D25A87BAB00EABEFA /* AudioUtil.h in Headers */,
+				13535B8E25A87BAB00EABEFA /* BarcodeView.h in Headers */,
+				13535B8F25A87BAB00EABEFA /* TTSDelegate.h in Headers */,
+				13535B9025A87BAB00EABEFA /* CameraHandlerDelegate.h in Headers */,
+				13535B9125A87BAB00EABEFA /* SpeechEncoding.h in Headers */,
+				13535B9225A87BAB00EABEFA /* CameraHandler.h in Headers */,
+				13535B9325A87BAB00EABEFA /* CameraBarcodeScanner.h in Headers */,
+				13535B9425A87BAB00EABEFA /* AudioRecorder.h in Headers */,
+				13535B9525A87BAB00EABEFA /* BarcodeScannerDelegate.h in Headers */,
+				13535B9625A87BAB00EABEFA /* IPlayerCallback.h in Headers */,
+				13535B9725A87BAB00EABEFA /* AudioPlayer.h in Headers */,
+				13535B9825A87BAB00EABEFA /* TonePlayer.h in Headers */,
+				13535B9925A87BAB00EABEFA /* ImageUtils.h in Headers */,
+				13535B9A25A87BAB00EABEFA /* BarcodeUIDelegate.h in Headers */,
+				13535B9B25A87BAB00EABEFA /* iOSLocalTTSPlayer.h in Headers */,
+				13535B9C25A87BAB00EABEFA /* IRecorderCallback.h in Headers */,
+				13535B9D25A87BAB00EABEFA /* BarcodeScannerProvider.h in Headers */,
+				13535B9E25A87BAB00EABEFA /* IM.h in Headers */,
+				13535B9F25A87BAB00EABEFA /* IMEvent.h in Headers */,
+				13535BA025A87BAB00EABEFA /* IIMComponent.h in Headers */,
+				13535BA125A87BAB00EABEFA /* IIMComponentVersion.h in Headers */,
+				13535B8725A87B9600EABEFA /* ICuemeAuthenticator.h in Headers */,
+				13535B8825A87B9600EABEFA /* IContainerSplash.h in Headers */,
+				13535B8925A87B9600EABEFA /* CuemeAnalytics.h in Headers */,
+				13535B8A25A87B9600EABEFA /* CuemeWorkbench.h in Headers */,
+				13535B6D25A87B8600EABEFA /* JSONUtils.h in Headers */,
+				13535B6E25A87B8600EABEFA /* MessageProcessor.h in Headers */,
+				13535B6F25A87B8600EABEFA /* IURLHandler.h in Headers */,
+				13535B7025A87B8600EABEFA /* ApplicationUtil.h in Headers */,
+				13535B7125A87B8600EABEFA /* CuemeWebViewConfigurator.h in Headers */,
+				13535B7225A87B8600EABEFA /* PropertyReader.h in Headers */,
+				13535B7325A87B8600EABEFA /* URLAgent.h in Headers */,
+				13535B7425A87B8600EABEFA /* FileUtils.h in Headers */,
+				13535B7525A87B8600EABEFA /* IResourceEncryptionHandler.h in Headers */,
+				13535B7625A87B8600EABEFA /* Base64Util.h in Headers */,
+				13535B7725A87B8600EABEFA /* StringUtil.h in Headers */,
+				13535B7825A87B8600EABEFA /* IUrlCallback.h in Headers */,
+				13535B7925A87B8600EABEFA /* JSONObject.h in Headers */,
+				13535B7A25A87B8600EABEFA /* Database.h in Headers */,
+				13535B7B25A87B8600EABEFA /* JSONArray.h in Headers */,
+				13535B7C25A87B8600EABEFA /* HttpAgent.h in Headers */,
+				13535B7D25A87B8600EABEFA /* URLUtils.h in Headers */,
+				13535B7E25A87B8600EABEFA /* MessageQueue.h in Headers */,
+				13535B7F25A87B8600EABEFA /* IApplicationContext.h in Headers */,
+				13535B8025A87B8600EABEFA /* QueryResults.h in Headers */,
+				13535B8125A87B8600EABEFA /* Logger.h in Headers */,
+				13535B8225A87B8600EABEFA /* DMUtils.h in Headers */,
+				13535B8325A87B8600EABEFA /* CoreDevUtil.h in Headers */,
+				13535B8425A87B8600EABEFA /* StoreManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		13BC0383233A430E0082FD66 /* CameraComponentResource */ = {
 			isa = PBXNativeTarget;
@@ -329,6 +449,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3C1A84719951F9500AE9A92 /* Build configuration list for PBXNativeTarget "CameraComponent" */;
 			buildPhases = (
+				13535B6C25A87B6500EABEFA /* Headers */,
 				B3C1A82019951F9400AE9A92 /* Sources */,
 				B3C1A82119951F9400AE9A92 /* Frameworks */,
 				B3C1A82219951F9400AE9A92 /* CopyFiles */,
