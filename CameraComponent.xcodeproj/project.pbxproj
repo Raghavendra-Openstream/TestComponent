@@ -48,6 +48,55 @@
 /* Begin PBXFileReference section */
 		132B32F3237599E000AEDD93 /* OSECameraComponentError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSECameraComponentError.h; sourceTree = "<group>"; };
 		132B32F4237599E000AEDD93 /* OSECameraComponentError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSECameraComponentError.m; sourceTree = "<group>"; };
+		13535B3225A8704A00EABEFA /* JSONUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONUtils.h; sourceTree = "<group>"; };
+		13535B3325A8704A00EABEFA /* MessageProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageProcessor.h; sourceTree = "<group>"; };
+		13535B3425A8704A00EABEFA /* IURLHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IURLHandler.h; sourceTree = "<group>"; };
+		13535B3525A8704A00EABEFA /* ApplicationUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationUtil.h; sourceTree = "<group>"; };
+		13535B3625A8704A00EABEFA /* CuemeWebViewConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CuemeWebViewConfigurator.h; sourceTree = "<group>"; };
+		13535B3725A8704A00EABEFA /* PropertyReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyReader.h; sourceTree = "<group>"; };
+		13535B3825A8704A00EABEFA /* URLAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLAgent.h; sourceTree = "<group>"; };
+		13535B3925A8704A00EABEFA /* FileUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileUtils.h; sourceTree = "<group>"; };
+		13535B3A25A8704A00EABEFA /* IResourceEncryptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IResourceEncryptionHandler.h; sourceTree = "<group>"; };
+		13535B3B25A8704A00EABEFA /* Base64Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Util.h; sourceTree = "<group>"; };
+		13535B3C25A8704A00EABEFA /* StringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtil.h; sourceTree = "<group>"; };
+		13535B3D25A8704A00EABEFA /* IUrlCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IUrlCallback.h; sourceTree = "<group>"; };
+		13535B3E25A8704A00EABEFA /* JSONObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONObject.h; sourceTree = "<group>"; };
+		13535B3F25A8704A00EABEFA /* Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Database.h; sourceTree = "<group>"; };
+		13535B4025A8704A00EABEFA /* JSONArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONArray.h; sourceTree = "<group>"; };
+		13535B4125A8704A00EABEFA /* HttpAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpAgent.h; sourceTree = "<group>"; };
+		13535B4225A8704A00EABEFA /* URLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLUtils.h; sourceTree = "<group>"; };
+		13535B4325A8704A00EABEFA /* MessageQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageQueue.h; sourceTree = "<group>"; };
+		13535B4425A8704B00EABEFA /* IApplicationContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IApplicationContext.h; sourceTree = "<group>"; };
+		13535B4525A8704B00EABEFA /* QueryResults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryResults.h; sourceTree = "<group>"; };
+		13535B4625A8704B00EABEFA /* Logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logger.h; sourceTree = "<group>"; };
+		13535B4725A8704B00EABEFA /* DMUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMUtils.h; sourceTree = "<group>"; };
+		13535B4825A8704B00EABEFA /* CoreDevUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDevUtil.h; sourceTree = "<group>"; };
+		13535B4925A8704B00EABEFA /* StoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreManager.h; sourceTree = "<group>"; };
+		13535B4B25A8704B00EABEFA /* ICuemeAuthenticator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICuemeAuthenticator.h; sourceTree = "<group>"; };
+		13535B4C25A8704B00EABEFA /* IContainerSplash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IContainerSplash.h; sourceTree = "<group>"; };
+		13535B4D25A8704B00EABEFA /* CuemeAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CuemeAnalytics.h; sourceTree = "<group>"; };
+		13535B4E25A8704B00EABEFA /* CuemeWorkbench.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CuemeWorkbench.h; sourceTree = "<group>"; };
+		13535B5025A8704B00EABEFA /* AudioUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioUtil.h; sourceTree = "<group>"; };
+		13535B5125A8704B00EABEFA /* BarcodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarcodeView.h; sourceTree = "<group>"; };
+		13535B5225A8704B00EABEFA /* TTSDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSDelegate.h; sourceTree = "<group>"; };
+		13535B5325A8704B00EABEFA /* CameraHandlerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraHandlerDelegate.h; sourceTree = "<group>"; };
+		13535B5425A8704B00EABEFA /* SpeechEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeechEncoding.h; sourceTree = "<group>"; };
+		13535B5525A8704B00EABEFA /* CameraHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraHandler.h; sourceTree = "<group>"; };
+		13535B5625A8704B00EABEFA /* CameraBarcodeScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraBarcodeScanner.h; sourceTree = "<group>"; };
+		13535B5725A8704B00EABEFA /* AudioRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioRecorder.h; sourceTree = "<group>"; };
+		13535B5825A8704B00EABEFA /* BarcodeScannerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarcodeScannerDelegate.h; sourceTree = "<group>"; };
+		13535B5925A8704B00EABEFA /* IPlayerCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPlayerCallback.h; sourceTree = "<group>"; };
+		13535B5A25A8704B00EABEFA /* AudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayer.h; sourceTree = "<group>"; };
+		13535B5B25A8704B00EABEFA /* TonePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TonePlayer.h; sourceTree = "<group>"; };
+		13535B5C25A8704B00EABEFA /* ImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageUtils.h; sourceTree = "<group>"; };
+		13535B5D25A8704B00EABEFA /* BarcodeUIDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarcodeUIDelegate.h; sourceTree = "<group>"; };
+		13535B5E25A8704B00EABEFA /* iOSLocalTTSPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSLocalTTSPlayer.h; sourceTree = "<group>"; };
+		13535B5F25A8704B00EABEFA /* IRecorderCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRecorderCallback.h; sourceTree = "<group>"; };
+		13535B6025A8704B00EABEFA /* BarcodeScannerProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarcodeScannerProvider.h; sourceTree = "<group>"; };
+		13535B6225A8704B00EABEFA /* IM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IM.h; sourceTree = "<group>"; };
+		13535B6325A8704B00EABEFA /* IMEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMEvent.h; sourceTree = "<group>"; };
+		13535B6425A8704B00EABEFA /* IIMComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IIMComponent.h; sourceTree = "<group>"; };
+		13535B6525A8704B00EABEFA /* IIMComponentVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IIMComponentVersion.h; sourceTree = "<group>"; };
 		135C926623323AF1008451B3 /* CameraComponent-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CameraComponent-Prefix.pch"; sourceTree = "<group>"; };
 		135C928E23323B5E008451B3 /* CameraHandlerCustom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraHandlerCustom.h; sourceTree = "<group>"; };
 		137FDA7923584C4600B62761 /* info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info@2x.png"; sourceTree = "<group>"; };
@@ -72,57 +121,6 @@
 		B3C1A83819951F9500AE9A92 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		B3C1A875199918EF00AE9A92 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		F1A7664F2345746C0044AE12 /* CustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
-		F1B8B7A92345370D004168B9 /* JSONUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONUtils.h; sourceTree = "<group>"; };
-		F1B8B7AA2345370D004168B9 /* MessageProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageProcessor.h; sourceTree = "<group>"; };
-		F1B8B7AB2345370D004168B9 /* IURLHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IURLHandler.h; sourceTree = "<group>"; };
-		F1B8B7AC2345370D004168B9 /* ApplicationUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationUtil.h; sourceTree = "<group>"; };
-		F1B8B7AD2345370D004168B9 /* PropertyReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyReader.h; sourceTree = "<group>"; };
-		F1B8B7AE2345370D004168B9 /* CuemeNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CuemeNotificationCenter.h; sourceTree = "<group>"; };
-		F1B8B7AF2345370D004168B9 /* URLAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLAgent.h; sourceTree = "<group>"; };
-		F1B8B7B02345370D004168B9 /* FileUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileUtils.h; sourceTree = "<group>"; };
-		F1B8B7B12345370D004168B9 /* IResourceEncryptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IResourceEncryptionHandler.h; sourceTree = "<group>"; };
-		F1B8B7B22345370D004168B9 /* Base64Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Util.h; sourceTree = "<group>"; };
-		F1B8B7B32345370D004168B9 /* StringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtil.h; sourceTree = "<group>"; };
-		F1B8B7B42345370D004168B9 /* IUrlCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IUrlCallback.h; sourceTree = "<group>"; };
-		F1B8B7B52345370D004168B9 /* JSONObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONObject.h; sourceTree = "<group>"; };
-		F1B8B7B62345370D004168B9 /* Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Database.h; sourceTree = "<group>"; };
-		F1B8B7B72345370D004168B9 /* JSONArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONArray.h; sourceTree = "<group>"; };
-		F1B8B7B82345370D004168B9 /* HttpAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpAgent.h; sourceTree = "<group>"; };
-		F1B8B7B92345370D004168B9 /* URLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLUtils.h; sourceTree = "<group>"; };
-		F1B8B7BA2345370D004168B9 /* MessageQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageQueue.h; sourceTree = "<group>"; };
-		F1B8B7BB2345370D004168B9 /* IApplicationContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IApplicationContext.h; sourceTree = "<group>"; };
-		F1B8B7BC2345370D004168B9 /* QueryResults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryResults.h; sourceTree = "<group>"; };
-		F1B8B7BD2345370D004168B9 /* Logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logger.h; sourceTree = "<group>"; };
-		F1B8B7BE2345370D004168B9 /* DMUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMUtils.h; sourceTree = "<group>"; };
-		F1B8B7BF2345370D004168B9 /* CoreDevUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDevUtil.h; sourceTree = "<group>"; };
-		F1B8B7C02345370D004168B9 /* StoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreManager.h; sourceTree = "<group>"; };
-		F1B8B7C22345370D004168B9 /* ICuemeAuthenticator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICuemeAuthenticator.h; sourceTree = "<group>"; };
-		F1B8B7C32345370D004168B9 /* IContainerSplash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IContainerSplash.h; sourceTree = "<group>"; };
-		F1B8B7C42345370D004168B9 /* IContainerPluginListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IContainerPluginListener.h; sourceTree = "<group>"; };
-		F1B8B7C52345370D004168B9 /* CuemeAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CuemeAnalytics.h; sourceTree = "<group>"; };
-		F1B8B7C62345370D004168B9 /* CuemeWorkbench.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CuemeWorkbench.h; sourceTree = "<group>"; };
-		F1B8B7C72345370D004168B9 /* IContainerPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IContainerPlugin.h; sourceTree = "<group>"; };
-		F1B8B7C92345370D004168B9 /* AudioUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioUtil.h; sourceTree = "<group>"; };
-		F1B8B7CA2345370D004168B9 /* BarcodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarcodeView.h; sourceTree = "<group>"; };
-		F1B8B7CB2345370D004168B9 /* TTSDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSDelegate.h; sourceTree = "<group>"; };
-		F1B8B7CC2345370D004168B9 /* CameraHandlerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraHandlerDelegate.h; sourceTree = "<group>"; };
-		F1B8B7CD2345370D004168B9 /* SpeechEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeechEncoding.h; sourceTree = "<group>"; };
-		F1B8B7CE2345370D004168B9 /* CameraHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraHandler.h; sourceTree = "<group>"; };
-		F1B8B7CF2345370D004168B9 /* CameraBarcodeScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraBarcodeScanner.h; sourceTree = "<group>"; };
-		F1B8B7D02345370D004168B9 /* AudioRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioRecorder.h; sourceTree = "<group>"; };
-		F1B8B7D12345370D004168B9 /* BarcodeScannerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarcodeScannerDelegate.h; sourceTree = "<group>"; };
-		F1B8B7D22345370D004168B9 /* IPlayerCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPlayerCallback.h; sourceTree = "<group>"; };
-		F1B8B7D32345370D004168B9 /* AudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayer.h; sourceTree = "<group>"; };
-		F1B8B7D42345370D004168B9 /* TonePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TonePlayer.h; sourceTree = "<group>"; };
-		F1B8B7D52345370D004168B9 /* ImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageUtils.h; sourceTree = "<group>"; };
-		F1B8B7D62345370D004168B9 /* BarcodeUIDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarcodeUIDelegate.h; sourceTree = "<group>"; };
-		F1B8B7D72345370D004168B9 /* iOSLocalTTSPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSLocalTTSPlayer.h; sourceTree = "<group>"; };
-		F1B8B7D82345370D004168B9 /* IRecorderCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRecorderCallback.h; sourceTree = "<group>"; };
-		F1B8B7D92345370D004168B9 /* BarcodeScannerProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarcodeScannerProvider.h; sourceTree = "<group>"; };
-		F1B8B7DB2345370D004168B9 /* IM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IM.h; sourceTree = "<group>"; };
-		F1B8B7DC2345370D004168B9 /* IMEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMEvent.h; sourceTree = "<group>"; };
-		F1B8B7DD2345370D004168B9 /* IIMComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IIMComponent.h; sourceTree = "<group>"; };
-		F1B8B7DE2345370D004168B9 /* IIMComponentVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IIMComponentVersion.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,10 +144,98 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13535B3025A8704A00EABEFA /* CuemeDevLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				13535B3125A8704A00EABEFA /* CuemeUtils */,
+				13535B4A25A8704B00EABEFA /* CuemeWorkbench */,
+				13535B4F25A8704B00EABEFA /* CuemePlatformUtil */,
+				13535B6125A8704B00EABEFA /* IM */,
+			);
+			path = CuemeDevLibrary;
+			sourceTree = "<group>";
+		};
+		13535B3125A8704A00EABEFA /* CuemeUtils */ = {
+			isa = PBXGroup;
+			children = (
+				13535B3225A8704A00EABEFA /* JSONUtils.h */,
+				13535B3325A8704A00EABEFA /* MessageProcessor.h */,
+				13535B3425A8704A00EABEFA /* IURLHandler.h */,
+				13535B3525A8704A00EABEFA /* ApplicationUtil.h */,
+				13535B3625A8704A00EABEFA /* CuemeWebViewConfigurator.h */,
+				13535B3725A8704A00EABEFA /* PropertyReader.h */,
+				13535B3825A8704A00EABEFA /* URLAgent.h */,
+				13535B3925A8704A00EABEFA /* FileUtils.h */,
+				13535B3A25A8704A00EABEFA /* IResourceEncryptionHandler.h */,
+				13535B3B25A8704A00EABEFA /* Base64Util.h */,
+				13535B3C25A8704A00EABEFA /* StringUtil.h */,
+				13535B3D25A8704A00EABEFA /* IUrlCallback.h */,
+				13535B3E25A8704A00EABEFA /* JSONObject.h */,
+				13535B3F25A8704A00EABEFA /* Database.h */,
+				13535B4025A8704A00EABEFA /* JSONArray.h */,
+				13535B4125A8704A00EABEFA /* HttpAgent.h */,
+				13535B4225A8704A00EABEFA /* URLUtils.h */,
+				13535B4325A8704A00EABEFA /* MessageQueue.h */,
+				13535B4425A8704B00EABEFA /* IApplicationContext.h */,
+				13535B4525A8704B00EABEFA /* QueryResults.h */,
+				13535B4625A8704B00EABEFA /* Logger.h */,
+				13535B4725A8704B00EABEFA /* DMUtils.h */,
+				13535B4825A8704B00EABEFA /* CoreDevUtil.h */,
+				13535B4925A8704B00EABEFA /* StoreManager.h */,
+			);
+			path = CuemeUtils;
+			sourceTree = "<group>";
+		};
+		13535B4A25A8704B00EABEFA /* CuemeWorkbench */ = {
+			isa = PBXGroup;
+			children = (
+				13535B4B25A8704B00EABEFA /* ICuemeAuthenticator.h */,
+				13535B4C25A8704B00EABEFA /* IContainerSplash.h */,
+				13535B4D25A8704B00EABEFA /* CuemeAnalytics.h */,
+				13535B4E25A8704B00EABEFA /* CuemeWorkbench.h */,
+			);
+			path = CuemeWorkbench;
+			sourceTree = "<group>";
+		};
+		13535B4F25A8704B00EABEFA /* CuemePlatformUtil */ = {
+			isa = PBXGroup;
+			children = (
+				13535B5025A8704B00EABEFA /* AudioUtil.h */,
+				13535B5125A8704B00EABEFA /* BarcodeView.h */,
+				13535B5225A8704B00EABEFA /* TTSDelegate.h */,
+				13535B5325A8704B00EABEFA /* CameraHandlerDelegate.h */,
+				13535B5425A8704B00EABEFA /* SpeechEncoding.h */,
+				13535B5525A8704B00EABEFA /* CameraHandler.h */,
+				13535B5625A8704B00EABEFA /* CameraBarcodeScanner.h */,
+				13535B5725A8704B00EABEFA /* AudioRecorder.h */,
+				13535B5825A8704B00EABEFA /* BarcodeScannerDelegate.h */,
+				13535B5925A8704B00EABEFA /* IPlayerCallback.h */,
+				13535B5A25A8704B00EABEFA /* AudioPlayer.h */,
+				13535B5B25A8704B00EABEFA /* TonePlayer.h */,
+				13535B5C25A8704B00EABEFA /* ImageUtils.h */,
+				13535B5D25A8704B00EABEFA /* BarcodeUIDelegate.h */,
+				13535B5E25A8704B00EABEFA /* iOSLocalTTSPlayer.h */,
+				13535B5F25A8704B00EABEFA /* IRecorderCallback.h */,
+				13535B6025A8704B00EABEFA /* BarcodeScannerProvider.h */,
+			);
+			path = CuemePlatformUtil;
+			sourceTree = "<group>";
+		};
+		13535B6125A8704B00EABEFA /* IM */ = {
+			isa = PBXGroup;
+			children = (
+				13535B6225A8704B00EABEFA /* IM.h */,
+				13535B6325A8704B00EABEFA /* IMEvent.h */,
+				13535B6425A8704B00EABEFA /* IIMComponent.h */,
+				13535B6525A8704B00EABEFA /* IIMComponentVersion.h */,
+			);
+			path = IM;
+			sourceTree = "<group>";
+		};
 		135C926823323B5D008451B3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F1B8B7A72345370D004168B9 /* CuemeDevLibrary */,
+				13535B3025A8704A00EABEFA /* CuemeDevLibrary */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -217,97 +303,6 @@
 				132B32F4237599E000AEDD93 /* OSECameraComponentError.m */,
 			);
 			path = CameraComponent;
-			sourceTree = "<group>";
-		};
-		F1B8B7A72345370D004168B9 /* CuemeDevLibrary */ = {
-			isa = PBXGroup;
-			children = (
-				F1B8B7A82345370D004168B9 /* CuemeUtils */,
-				F1B8B7C12345370D004168B9 /* CuemeWorkbench */,
-				F1B8B7C82345370D004168B9 /* CuemePlatformUtil */,
-				F1B8B7DA2345370D004168B9 /* IM */,
-			);
-			name = CuemeDevLibrary;
-			path = ../../CuemeBuild/headers/CuemeDevLibrary;
-			sourceTree = "<group>";
-		};
-		F1B8B7A82345370D004168B9 /* CuemeUtils */ = {
-			isa = PBXGroup;
-			children = (
-				F1B8B7A92345370D004168B9 /* JSONUtils.h */,
-				F1B8B7AA2345370D004168B9 /* MessageProcessor.h */,
-				F1B8B7AB2345370D004168B9 /* IURLHandler.h */,
-				F1B8B7AC2345370D004168B9 /* ApplicationUtil.h */,
-				F1B8B7AD2345370D004168B9 /* PropertyReader.h */,
-				F1B8B7AE2345370D004168B9 /* CuemeNotificationCenter.h */,
-				F1B8B7AF2345370D004168B9 /* URLAgent.h */,
-				F1B8B7B02345370D004168B9 /* FileUtils.h */,
-				F1B8B7B12345370D004168B9 /* IResourceEncryptionHandler.h */,
-				F1B8B7B22345370D004168B9 /* Base64Util.h */,
-				F1B8B7B32345370D004168B9 /* StringUtil.h */,
-				F1B8B7B42345370D004168B9 /* IUrlCallback.h */,
-				F1B8B7B52345370D004168B9 /* JSONObject.h */,
-				F1B8B7B62345370D004168B9 /* Database.h */,
-				F1B8B7B72345370D004168B9 /* JSONArray.h */,
-				F1B8B7B82345370D004168B9 /* HttpAgent.h */,
-				F1B8B7B92345370D004168B9 /* URLUtils.h */,
-				F1B8B7BA2345370D004168B9 /* MessageQueue.h */,
-				F1B8B7BB2345370D004168B9 /* IApplicationContext.h */,
-				F1B8B7BC2345370D004168B9 /* QueryResults.h */,
-				F1B8B7BD2345370D004168B9 /* Logger.h */,
-				F1B8B7BE2345370D004168B9 /* DMUtils.h */,
-				F1B8B7BF2345370D004168B9 /* CoreDevUtil.h */,
-				F1B8B7C02345370D004168B9 /* StoreManager.h */,
-			);
-			path = CuemeUtils;
-			sourceTree = "<group>";
-		};
-		F1B8B7C12345370D004168B9 /* CuemeWorkbench */ = {
-			isa = PBXGroup;
-			children = (
-				F1B8B7C22345370D004168B9 /* ICuemeAuthenticator.h */,
-				F1B8B7C32345370D004168B9 /* IContainerSplash.h */,
-				F1B8B7C42345370D004168B9 /* IContainerPluginListener.h */,
-				F1B8B7C52345370D004168B9 /* CuemeAnalytics.h */,
-				F1B8B7C62345370D004168B9 /* CuemeWorkbench.h */,
-				F1B8B7C72345370D004168B9 /* IContainerPlugin.h */,
-			);
-			path = CuemeWorkbench;
-			sourceTree = "<group>";
-		};
-		F1B8B7C82345370D004168B9 /* CuemePlatformUtil */ = {
-			isa = PBXGroup;
-			children = (
-				F1B8B7C92345370D004168B9 /* AudioUtil.h */,
-				F1B8B7CA2345370D004168B9 /* BarcodeView.h */,
-				F1B8B7CB2345370D004168B9 /* TTSDelegate.h */,
-				F1B8B7CC2345370D004168B9 /* CameraHandlerDelegate.h */,
-				F1B8B7CD2345370D004168B9 /* SpeechEncoding.h */,
-				F1B8B7CE2345370D004168B9 /* CameraHandler.h */,
-				F1B8B7CF2345370D004168B9 /* CameraBarcodeScanner.h */,
-				F1B8B7D02345370D004168B9 /* AudioRecorder.h */,
-				F1B8B7D12345370D004168B9 /* BarcodeScannerDelegate.h */,
-				F1B8B7D22345370D004168B9 /* IPlayerCallback.h */,
-				F1B8B7D32345370D004168B9 /* AudioPlayer.h */,
-				F1B8B7D42345370D004168B9 /* TonePlayer.h */,
-				F1B8B7D52345370D004168B9 /* ImageUtils.h */,
-				F1B8B7D62345370D004168B9 /* BarcodeUIDelegate.h */,
-				F1B8B7D72345370D004168B9 /* iOSLocalTTSPlayer.h */,
-				F1B8B7D82345370D004168B9 /* IRecorderCallback.h */,
-				F1B8B7D92345370D004168B9 /* BarcodeScannerProvider.h */,
-			);
-			path = CuemePlatformUtil;
-			sourceTree = "<group>";
-		};
-		F1B8B7DA2345370D004168B9 /* IM */ = {
-			isa = PBXGroup;
-			children = (
-				F1B8B7DB2345370D004168B9 /* IM.h */,
-				F1B8B7DC2345370D004168B9 /* IMEvent.h */,
-				F1B8B7DD2345370D004168B9 /* IIMComponent.h */,
-				F1B8B7DE2345370D004168B9 /* IIMComponentVersion.h */,
-			);
-			path = IM;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
