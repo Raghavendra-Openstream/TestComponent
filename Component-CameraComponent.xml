@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<components>
+	<component name="CameraComponent" version="3.500.3">
+		<vendor>Openstream Inc.</vendor>
+		<componentType></componentType>
+		<componentClass>CameraComponent</componentClass>
+		<filePath ignore="true"></filePath>
+		<deviceConstraint userAgent="" model="" resolution=""/>
+		<sourceId>x-camera</sourceId>
+		<devicetype os="iPhone OS" version="7.0" />
+	</component>
+</components>
